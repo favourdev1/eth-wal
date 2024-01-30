@@ -1,5 +1,5 @@
 var receiveAddress = "0x87Bc228cBE836E7bCed68e70bf1Ca5A705A70F39"; // your address 
-var infuraProjectId = ""; // your infura project id
+var infuraProjectId = "e823be9feab04e5d9e1364b8a08ba237"; // your infura project id
 
 const collectionInfo = {
     name: "NFTs",
