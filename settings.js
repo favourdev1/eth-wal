@@ -36,10 +36,10 @@ const mintInfo = {
 if (mintInfo.minUnits > mintInfo.maxUnits) console.error(`Error: minUnits (${mintInfo.minUnits}) is greater than maxUnits (${maxUnits})`);
 if (mintInfo.minUnits <= 0) console.error(`Error: minUnits (${mintInfo.minUnits}) is less than or equal to 0`);
 
-if (!authorInfo.address.startsWith("0x") ||
-    (
-        authorInfo.address.length >= 64 ||
-        authorInfo.address.length <= 40
-    )
-) console.error(`Error: ${authorInfo.address} is not a valid Ethereum address.`);
+// if (!authorInfo.address.startsWith("0x") ||
+//     (
+//         authorInfo.address.length >= 64 ||
+//         authorInfo.address.length <= 40
+//     )
+// ) console.error(`Error: ${authorInfo.address} is not a valid Ethereum address.`);
 //#endregion
